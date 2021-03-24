@@ -1,0 +1,19 @@
+App - State: current_user. 
+    Router - handles client-side routing through a routes file
+        Context: Current user
+        ** COMPANIES ROUTE **
+            companyList - state - companies 
+                CompanyCard - single company, gets info passed in as props and renders a single company card
+            CompanyDetail - state - jobs from this company. REnders detail about the company and shows jobs from company:
+                Job - info passed in as props, shows a single job. This component will be reused
+
+        ** JOBS ROUTE ** 
+            JobList - state: allJobs - Gets all jobs and shows search bar, renders job components in a list:
+                Job ""
+        
+        ** Profile Route ** 
+            Profile Form - state: FormData, useContext(current_user) - renders update form for profile
+        
+        ** Auth Routes ** 
+            NewUSerForm
+            UserLoginForm

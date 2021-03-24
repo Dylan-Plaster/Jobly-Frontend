@@ -1,0 +1,16 @@
+.Home-h1 {
+  font-size: 5rem;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+hr {
+  width: 50%;
+  margin: auto;
+
+  border: 5px solid slateblue !important;
+}
+
+.Home-h2 {
+  font-size: 2rem;
+}
