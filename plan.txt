@@ -17,3 +17,10 @@ App - State: current_user.
         ** Auth Routes ** 
             NewUSerForm
             UserLoginForm
+
+
+USELOCALSTORAGE HOOK:
+Reserve piece of state and setter function
+1. on page load (useEffect), check localstorage for the key
+2. If there is a value stored in that key in localstorage, update the state with the value in localstorage. This should only run on page load
+3. When the state is updated, useEffect to update localstorage

@@ -34,3 +34,10 @@
 .CompanyCard img {
   height: 100%;
 }
+
+@media (max-width: 700px) {
+  .CompanyCard {
+    flex-direction: column;
+    height: auto;
+  }
+}
