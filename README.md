@@ -1,9 +1,15 @@
-# Getting Started with Create React App
+
+
+# This project is the React frontend for the Jobly app which can be found at http://sour-wine.surge.sh
+
+
+----------
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-
-## This project is the React frontend for the Jobly app which can be found at http://sour-wine.surge.sh
 
 
 
